@@ -63,7 +63,9 @@ vpc2/
 
 ## 🗺️ Architecture Diagram
 
-![AWS PrivateLink Architecture Diagram](/diagram/aws-private-link.png)
+<p align="center">
+  <img src="https://github.com/gossilva/aws-privatelink-terraform/blob/main/diagram/aws-private-link.png?raw=true" width="800" alt="AWS PrivateLink Architecture Diagram">
+</p>
 
 ---
 
