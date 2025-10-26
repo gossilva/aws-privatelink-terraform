@@ -11,4 +11,3 @@ resource "aws_instance" "vpc2_ec2" {
     }
   )
 }
-
