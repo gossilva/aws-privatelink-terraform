@@ -61,8 +61,11 @@ vpc2/
 
 ---
 
+## 🗺️ Architecture Diagram
 
-```
+<p align="center">
+  <img src="diagrams/architecture.png" width="800" alt="AWS PrivateLink Architecture Diagram">
+</p>
 
 ---
 
