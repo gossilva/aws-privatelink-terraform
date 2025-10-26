@@ -151,7 +151,7 @@ These tags propagate automatically to all resources via `local.tags`.
 
 ---
 
-## 🪶 Backend State Configuration
+## Backend State Configuration
 
 Each VPC is designed to support **separate remote states** (for scalability and modular independence).
 
