@@ -5,6 +5,7 @@ resource "aws_vpc_endpoint" "vpc2_vpce" {
   private_dns_enabled = false
   subnet_ids = [aws_subnet.vpc2_private_subnet_1a.id,
   aws_subnet.vpc2_private_subnet_1b.id]
+
   tags = merge(
     var.tags,
     {

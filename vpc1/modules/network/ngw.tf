@@ -1,5 +1,6 @@
 resource "aws_eip" "vpc1_eip_1a" {
   domain = "vpc"
+
   tags = merge(
     var.tags,
     {
@@ -10,6 +11,7 @@ resource "aws_eip" "vpc1_eip_1a" {
 
 resource "aws_eip" "vpc1_eip_1b" {
   domain = "vpc"
+
   tags = merge(
     var.tags,
     {
