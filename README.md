@@ -63,7 +63,7 @@ vpc2/
 
 ## 🗺️ Architecture Diagram
 
-![AWS PrivateLink Architecture Diagram](https://raw.githubusercontent.com/<teu-usuario>/<repo>/main/aws-privatelink-terraform/diagram/aws-private-link.png)
+![AWS PrivateLink Architecture Diagram](https://raw.githubusercontent.com/gossilva/aws-privatelink-terraform/refs/heads/main/diagram/aws-private-link.png)
 
 ---
 
