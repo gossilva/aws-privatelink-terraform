@@ -14,6 +14,7 @@ Defines the full AWS networking layer for the VPC — subnets, routing, and endp
 | `aws_nat_gateway`                 | Outbound access for private subnets         |
 | `aws_route_table` / `association` | Route management for subnet traffic         |
 | `aws_vpc_endpoint`                | Consumes service through Interface Endpoint |
+| `aws_security_group`              | Security Group for Interface VPC Endpoint   | 
 | `aws_ssm_parameter`               | Retrieves service name                      |
 
 ### **Outputs**
