@@ -48,6 +48,7 @@ vpc2/
  │   │      ├── region.tf
  │   │      ├── variables.tf
  │   │      ├── vpc.tf
+ │   │      ├── vpce-sg.tf
  │   │      └── vpce.tf
  │   └── compute/
  │          ├── ec2.tf
