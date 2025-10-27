@@ -3,7 +3,7 @@ resource "aws_vpc_endpoint" "vpc2_vpce" {
   service_name        = data.aws_ssm_parameter.vpc1_service_name.value
   vpc_endpoint_type   = "Interface"
   private_dns_enabled = false
-  security_group_ids  = [aws_security_group.vpc2_vpce_sg]
+  security_group_ids  = [aws_security_group.vpc2_vpce_sg.id]
   subnet_ids = [aws_subnet.vpc2_private_subnet_1a.id,
   aws_subnet.vpc2_private_subnet_1b.id]
 
